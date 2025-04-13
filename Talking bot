@@ -34,6 +34,6 @@ chat_session = model.start_chat(
   ]
 )
 
-response = chat_session.send_message("Instruction:Answer me,As a mother telling to her daughter,what are miracles of krishna?")
+response = chat_session.send_message("Instruction:Answer me,As a lord,what are miracles ?")
 
 print(response.text)
